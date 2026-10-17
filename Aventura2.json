@@ -1,0 +1,178 @@
+{
+  "start": 1,
+  "nodos": {
+    "1": {
+      "texto": "Llegas a un monasterio abandonado donde las campanas cuelgan torcidas y oxidadas.",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 0,
+      "fin": false,
+      "opciones": {
+        "examinar la entrada": 2,
+        "rodear el muro": 3
+      }
+    },
+
+    "2": {
+      "texto": "La puerta principal está forzada desde dentro.",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 10,
+      "fin": false,
+      "opciones": {
+        "entrar": 4
+      }
+    },
+
+    "3": {
+      "texto": "Un jardín seco rodea el monasterio, con un banco de piedra cubierto de hojas y una biblia abandonada",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 10,
+      "fin": false,
+      "opciones": {
+        "coger biblia": 16,
+        "ignorar": 5
+      }
+    },
+
+    "4": {
+      "texto": "Un claustro cubierto de hojas secas.",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "avanzar": 5
+      }
+    },
+
+    "5": {
+      "texto": "Pasillos estrechos llenos de iconos rotos.",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "entrar en la biblioteca": 6,
+        "seguir recto": 7
+      }
+    },
+
+    "6": {
+      "texto": "Estanterías derrumbadas y pergaminos húmedos.",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 10,
+      "fin": false,
+      "opciones": {
+        "volver": 5
+      }
+    },
+
+    "7": {
+      "texto": "Una capilla sin techo.",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "subir al campanario": 8,
+        "bajar a las criptas": 9
+      }
+    },
+
+    "8": {
+      "texto": "El campanario cruje bajo tus pies.",
+      "encuentro": null,
+      "objeto": null,
+      "reward": -50,
+      "fin": false,
+      "opciones": {
+        "seguir subiendo": 10
+      }
+    },
+
+    "9": {
+      "texto": "Criptas con nichos abiertos.",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "explorar": 11
+      }
+    },
+
+    "10": {
+      "texto": "Campanas caídas cubiertas de telarañas.",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 10,
+      "fin": false,
+      "opciones": {
+        "examinar el suelo": 12
+      }
+    },
+
+    "11": {
+      "texto": "Un pasadizo secreto aparece tras una lápida.",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 20,
+      "fin": false,
+      "opciones": {
+        "entrar": 12
+      }
+    },
+
+    "12": {
+      "texto": "Una cámara circular con frescos borrados.",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "avanzar": 13
+      }
+    },
+
+    "13": {
+      "texto": "Un monje espectral bloquea el paso.",
+      "encuentro": "espectro",
+      "objeto": null,
+      "reward": -200,
+      "fin": false,
+      "opciones": {}
+    },
+
+    "14": {
+      "texto": "El espectro se disuelve lentamente.",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 1000,
+      "fin": true,
+      "opciones": {}
+    },
+
+    "15": {
+      "texto": "El espectro te atraviesa el pecho.",
+      "encuentro": null,
+      "objeto": null,
+      "reward": -1000,
+      "fin": true,
+      "opciones": {}
+    },
+
+    "16": {
+      "texto": "Te inclinas sobre el banco de piedra y tomas la biblia. El cuero está cuarteado y las páginas crujen, pero aún se distinguen los salmos.",
+      "encuentro": null,
+      "objeto": "biblia",
+      "reward": 300,
+      "fin": false,
+      "opciones": {
+        "volver al claustro": 4
+      }
+    }
+  }
+}

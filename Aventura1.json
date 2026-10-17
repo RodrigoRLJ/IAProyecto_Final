@@ -1,0 +1,229 @@
+{
+  "start": 1,
+  "nodos": {
+    "1": {
+      "texto": "Te despiertas en calzas y con un dolor de cabeza aún peor que la mañana después del banquete celebrando la victoria del valle del Jerto sobre esos condenados husitas, estes donde estes has debido de recibir un buen golpe en la cabeza",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 0,
+      "fin": false,
+      "opciones": {
+        "fingir seguir inconsciente": 2,
+        "levantarte y hacer acopio de tu situación": 3
+      }
+    },
+
+    "2": {
+      "texto": "Justo después de incorporarte vislumbras una tenue luz que acaba de girar la esquina, su origen, un enorme carcelero con sonrisa cruel que nada más verte despierto llama refuerzos y juntos te llevan áun más profundo en la mazmorra...",
+      "encuentro": null,
+      "objeto": null,
+      "reward": -500,
+      "fin": false,
+      "opciones": {
+        "eres arrastrado hacia una sala de tortura": 20
+      }
+    },
+
+    "3": {
+      "texto": "Entre el mínimo resquicio de tus ojos entrecerrados vislumbras una sombra portando una antorcha, esa luz te permite entrever unas piernas largas y gruesas con unas llaves al cinto afuera de una celda con barrotes, tras un breve rato ves los pies girarse dandote la espalda, probablemente un carcelero husita encargado de vigilar la mazmorra en la que estes",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 10,
+      "fin": false,
+      "opciones": {
+        "esperar hasta que el carcelero se marche a otro sitio, no veas la luz y hacer acopio de tu situación": 4,
+        "levantarte a hurtadillas y tratar de quitarle las llaves": 19,
+        "trata de llamar la atención del guardia, finjiendo necesitar atención médica pero preparandote para abalanzarte y atacar al guardia en cuanto entre a tu celda para mirar si estas bien": 18
+      }
+    },
+
+    "4": {
+      "texto": "esperas largos minutos hasta que el pasillo queda en completo silencio, lo primero que haces es comprobar si al arrebatarte todo lo que llevabas encima te quitaron tu diente falso, bien, parece que no te buscaron lo suficientemente bien y no detectaron el encantamiento realizado por un mago para romper atadura o abrir cualquier cerrojo una y una sola vez",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "arrancate el diente y usalo sobre la puerta de barrotes de tu celda": 5
+      }
+    },
+
+    "5": {
+      "texto": "es una tarea algo larga y desagradable, pero te arrancas el diente y abres la puerta, avanzas por un corredor de muros ennegrecidos por la humedad y el hollín",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "entrar en una sala lateral": 6,
+        "seguir recto": 7
+      }
+    },
+
+    "6": {
+      "texto": "una pequeña despensa olvidada, con sacos de grano húmedos y olor a moho",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 10,
+      "fin": false,
+      "opciones": {
+        "coger grano": 7,
+        "ignorarlo y seguir": 8
+      }
+    },
+
+    "7": {
+      "texto": "olvidado al lado de la mesa a medio reparar entre clavos toscamente forjados vislumbras un martillo de carpintero",
+      "encuentro": null,
+      "objeto": "grano",
+      "reward": 10,
+      "fin": false,
+      "opciones": {
+        "Coje el martillo, un arma al fin, bueno una herramienta que puede usarse como tal, mejor que tus manos desnudas desde luego": 8,
+        "No lo cojas puede que el carpintero simplemente se ausentase por un momento y al volver y descubrir el hurto de la voz de alarma, el sigilo es tu mejor arma": 9
+      }
+    },
+
+    "8": {
+      "texto": "martillo en mano, sales de la habitación procurando no hacer rechinar la puerta de madera hinchada por la humedad",
+      "encuentro": null,
+      "objeto": "martillo",
+      "reward": 600,
+      "fin": false,
+      "opciones": {
+        "vuelve al pasillo": 9
+      }
+    },
+
+    "9": {
+      "texto": "el pasillo parece más estrecho ahora que avanzas encorvado, el olor a moho y a hierro viejo se pega al paladar",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "avanzar": 10
+      }
+    },
+
+    "10": {
+      "texto": "pasas junto a un nicho excavado en la pared donde aún quedan restos de velas consumidas y manchas oscuras imposibles de identificar",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "seguir adelante": 11
+      }
+    },
+
+    "11": {
+      "texto": "un portón lateral cerrado con tranca te obliga a acercarte conteniendo la respiración",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "pasar junto al portón": 12
+      }
+    },
+
+    "12": {
+      "texto": "el suelo desciende levemente y tus botas resbalan sobre una película de humedad y musgo",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "seguir bajando": 13
+      }
+    },
+
+    "13": {
+      "texto": "a lo lejos escuchas el eco apagado de pasos y el tintinear metálico de una maza golpeando una pared",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "avanzar con cautela": 14
+      }
+    },
+
+    "14": {
+      "texto": "en frente tuya ves que el pasillo gira en un angulo recto",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "doblar la esquina": 15
+      }
+    },
+
+    "15": {
+      "texto": "Al girar la esquina te encuentras de bruces con el carcelero en frente de una maziza puerta de madera, parece que solo te queda luchar",
+      "encuentro": null,
+      "objeto": null,
+      "reward": -1000,
+      "fin": false,
+      "opciones": {
+        "atacar al carcelero": 16
+      }
+    },
+
+    "16": {
+      "texto": "das el primer paso y te abalanzas, la distancia se cierra en un suspiro, el carcelero alza la maza y el choque es inevitable",
+      "encuentro": "carcelero",
+      "objeto": null,
+      "reward": 0,
+      "fin": false,
+      "opciones": {}
+    },
+
+    "17": {
+      "texto": "Eres un paladin, caballero entre caballeros y el carcelero un simple hombre de armas, con una maza y buena armadura frente a tus manos desnudas, luchaste como un oso de tu tierra, pero eso solo permitió que el carcelero se viese forzado a matarte en vez de caer preso una vez más",
+      "encuentro": null,
+      "objeto": null,
+      "reward": -1000,
+      "fin": true,
+      "opciones": {}
+    },
+
+    "18": {
+      "texto": "El dolor de tu cabeza hace que no necesites fingir un gemido de dolor como si estuvieses moribundo, nunca sabrás si ese perro husita se olió una trampa o simplemente no le importaba tu estado, solo abrió la puerta tras llamar a gritos a más guardas para arrastrarte a lo profundo de la mazmorra...",
+      "encuentro": null,
+      "objeto": null,
+      "reward": -500,
+      "fin": false,
+      "opciones": { "ir a ": 20 }
+    },
+
+    "19": {
+      "texto": "El guarda pilla tu brazo extendiéndose entre los barrotes infraganti y antes de que puedas reaccionar sientes el beso de una maza en tu antebrazo, y escuchas el grito de refuerzos del carcelero llamando a más compañeros para arrastrarte a lo profundo de la mazmorra...",
+      "encuentro": null,
+      "objeto": null,
+      "reward": -500,
+      "fin": false,
+      "opciones": { "ir a ": 20 }
+    },
+
+    "20": {
+      "texto": "... donde te espera un interrogador dispuesto a torturarte hasta que les cuentes la localización de la lanza del alba",
+      "encuentro": null,
+      "objeto": null,
+      "reward": -1000,
+      "fin": true,
+      "opciones": {}
+    },
+
+    "21": {
+      "texto": "El carcelero claramente es un hombre de armas, con buena malla, un sólido casco y una maza de guerra mientras tú solo tienes un martillo de carpintero, sin embargo sigues siendo un paladín y un martillo más apropiado para clavos te sigue permitiendo partir primero su codo y luego su cráneo pese a su casco. Tras darle muerte no pierdes el tiempo coger su maza y su manojo de llaves, su malla demasiado pequeña para que pase siquiera tus hombros, empiezas a buscar en el manojo la llave que abra la puerta fuera de esta sección de mazmorras y un paso más cerca de la libertad",
+      "encuentro": null,
+      "objeto": null,
+      "reward": 1000,
+      "fin": true,
+      "opciones": {}
+    }
+  }
+}

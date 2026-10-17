@@ -1,0 +1,229 @@
+{
+  "start": 1,
+  "nodos": {
+    "1": {
+      "texto": "Llegas a un faro abandonado azotado por la bruma marina.",
+      "encuentro": null,
+      "reward": 0,
+      "fin": false,
+      "opciones": { "entrar al faro": 2, "rodear el acantilado": 3 }
+    },
+
+    "2": {
+      "texto": "Escaleras en espiral cubiertas de sal.",
+      "encuentro": null,
+      "reward": 10,
+      "fin": false,
+      "opciones": { "subir": 4 }
+    },
+
+    "3": {
+      "texto": "Un sendero resbaladizo bordea el acantilado.",
+      "encuentro": null,
+      "reward": -50,
+      "fin": false,
+      "opciones": { "seguir": 4 }
+    },
+
+    "4": {
+      "texto": "Un almacén con cajas rotas.",
+      "encuentro": {"objeto":"cuerda mojada"},
+      "reward": 10,
+      "fin": false,
+      "opciones": { "coger cuerda": 5, "ignorar": 5 }
+    },
+
+    "5": {
+      "texto": "Un cruce interior con cuatro salidas.",
+      "encuentro": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "norte": 6,
+        "sur": 7,
+        "este": 8,
+        "oeste": 9
+      }
+    },
+
+    "6": {
+      "texto": "Galería húmeda con muros salinos.",
+      "encuentro": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "norte": 10,
+        "sur": 5,
+        "este": 11,
+        "oeste": 12
+      }
+    },
+
+    "7": {
+      "texto": "Pasillo con vigas caídas.",
+      "encuentro": null,
+      "reward": 0,
+      "fin": false,
+      "opciones": {
+        "norte": 5,
+        "sur": 13,
+        "este": 14,
+        "oeste": 15
+      }
+    },
+
+    "8": {
+      "texto": "Escalera interior de hierro.",
+      "encuentro": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": {
+        "subir": 16,
+        "bajar": 5,
+        "este": 17,
+        "oeste": 18
+      }
+    },
+
+    "9": {
+      "texto": "Sala circular inundada.",
+      "encuentro": null,
+      "reward": -10,
+      "fin": false,
+      "opciones": {
+        "norte": 5,
+        "sur": 19,
+        "este": 20,
+        "oeste": 21
+      }
+    },
+
+    "10": {
+      "texto": "Puerta oxidada con una rendija de luz.",
+      "encuentro": null,
+      "reward": 20,
+      "fin": false,
+      "opciones": { "abrir": 22, "volver": 6 }
+    },
+
+    "11": {
+      "texto": "Cuarto de mapas empapados.",
+      "encuentro": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": { "volver": 6 }
+    },
+
+    "12": {
+      "texto": "Depósito de aceite derramado.",
+      "encuentro": null,
+      "reward": -5,
+      "fin": false,
+      "opciones": { "volver": 6 }
+    },
+
+    "13": {
+      "texto": "Almacén colapsado.",
+      "encuentro": null,
+      "reward": -5,
+      "fin": false,
+      "opciones": { "volver": 7 }
+    },
+
+    "14": {
+      "texto": "Tramo de escaleras rotas.",
+      "encuentro": null,
+      "reward": -5,
+      "fin": false,
+      "opciones": { "volver": 7 }
+    },
+
+    "15": {
+      "texto": "Sala de mantenimiento.",
+      "encuentro": null,
+      "reward": 5,
+      "fin": false,
+      "opciones": { "volver": 7 }
+    },
+
+    "16": {
+      "texto": "Nivel superior con ventanas al mar.",
+      "encuentro": null,
+      "reward": 10,
+      "fin": false,
+      "opciones": { "bajar": 8, "este": 23, "oeste": 24 }
+    },
+
+    "17": {
+      "texto": "Cuarto con redes de pesca.",
+      "encuentro": null,
+      "reward": 0,
+      "fin": false,
+      "opciones": { "volver": 8 }
+    },
+
+    "18": {
+      "texto": "Pasillo con corriente de aire frío.",
+      "encuentro": null,
+      "reward": 0,
+      "fin": false,
+      "opciones": { "volver": 8 }
+    },
+
+    "19": {
+      "texto": "Sala inundada sin salida.",
+      "encuentro": null,
+      "reward": -5,
+      "fin": false,
+      "opciones": { "volver": 9 }
+    },
+
+    "20": {
+      "texto": "Pasillo derruido.",
+      "encuentro": null,
+      "reward": -5,
+      "fin": false,
+      "opciones": { "volver": 9 }
+    },
+
+    "21": {
+      "texto": "Alcoba con muros cubiertos de sal.",
+      "encuentro": null,
+      "reward": 0,
+      "fin": false,
+      "opciones": { "volver": 9 }
+    },
+
+    "22": {
+      "texto": "Escalera exterior iluminada por la luna.",
+      "encuentro": null,
+      "reward": 20,
+      "fin": false,
+      "opciones": { "subir": 25, "volver": 10 }
+    },
+
+    "23": {
+      "texto": "Galería de vigas altas.",
+      "encuentro": null,
+      "reward": 0,
+      "fin": false,
+      "opciones": { "volver": 16 }
+    },
+
+    "24": {
+      "texto": "Cuarto de guardia vacío.",
+      "encuentro": null,
+      "reward": 0,
+      "fin": false,
+      "opciones": { "volver": 16 }
+    },
+
+    "25": {
+      "texto": "Sales del faro y alcanzas la costa segura.",
+      "encuentro": null,
+      "reward": 1000,
+      "fin": true,
+      "opciones": {}
+    }
+  }
+}
